@@ -76,19 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const targetDate = downDate.getTargetDate();
 
-  // const timer = {
-  //   start() {
-  //     let startTime = Date.now();
-  //     setInterval(() => {
-  //       const deltatime = startTime - targetDate;
-  //       updateClock(deltatime);
-  //       startTime -= 1000;
-  //     }, 1000);
-  //   },
-  // };
-
-  // timer.start();
-
   const timer = {
     start() {
       let startTime = new Date();
